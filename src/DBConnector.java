@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 import java.sql.Statement;
 
 public class DBConnector{
-	final static String DB_URL = "jdbc:mysql://127.0.0.1:3306/";
+	final static String DB_URL = "jdbc:mysql://192.168.1.74:3306/";
 	final static String USER = "root";
 	final static String PASS = "netbuilder";
 	
