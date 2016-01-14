@@ -1,4 +1,4 @@
-public class mainWarehouse{
+public class MainWarehouseStart{
 	public static MainMenu menu1;
 
 	//Main function

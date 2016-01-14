@@ -35,8 +35,8 @@ public class MainMenu extends JFrame{
 	public void mainMenu() {
 		
 		
-		//orderobjects.readOrders(orders);
-		//orderobjects.productsOfOrder(orders);
+		orderobjects.readOrders(orders);
+		orderobjects.productsOfOrder(orders);
 		//Menu Start
 		prepareGUI();
 		showMainEvent();
