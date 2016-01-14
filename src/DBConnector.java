@@ -3,9 +3,9 @@ import java.sql.DriverManager;
 import java.sql.Statement;
 
 public class DBConnector{
-	final static String DB_URL = "jdbc:mysql://localhost:3306/";
+	final static String DB_URL = "jdbc:mysql://192.168.1.83:3306/";
 	final static String USER = "root";
-	final static String PASS = "gnomes12";
+	final static String PASS = "netbuilder";
 	
 	public static Connection conn;
 	public static Statement stmt;
